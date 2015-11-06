@@ -1,0 +1,12 @@
+<md-list >
+<md-subheader class="md-no-sticky">Chat</md-subheader>
+<md-list-item ng-repeat="person in people" ng-click="goToPerson(person.name, $event)" class="md-2-line">
+<img alt="{{ person.name }}" ng-src="{{ person.picture }}" class="md-avatar">
+<div class="md-list-item-text">
+	<p>{{ person.name }}</p>
+	<p>{{ person.lastMessage}}</p>
+</div>
+
+<ng-md-icon icon="chat" style="fill:black" size="20"></ng-md-icon> 
+</md-list-item>
+</md-list>

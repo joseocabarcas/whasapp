@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp",
+  "authors": [
+    "José Cabarcas <josecabarcas94@gmail.com>"
+  ],
+  "description": "test whatsapp angular",
+  "license": "MIT",
+  "homepage": "joseomar94.github.io",
+  "dependencies": {
+    "angular-moment": "*",
+    "angular-route": "*",
+    "angular": "*",
+    "angular-material": "~0.11.4",
+    "angular-material-icons": "~0.6.0",
+    "angular-resource": "~1.4.7"
+  },
+  "overrides": {
+    "angular-material": {
+      "main": [
+        "angular-material.css",
+        "angular-material.js"
+      ]
+    },
+    "angular-material--icons": {
+      "main": "angular-material-icons.css"
+    }
+    ,
+    "angular-resource": {
+      "main": "angular-resource.js"
+    }
+  }
+}
